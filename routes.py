@@ -7,6 +7,7 @@ from .charts import *
 
 @app.route("/", methods=['GET', 'POST'])
 @app.route("/stocks", methods=['GET', 'POST'])
+@app.rout("/charts", methods=['GET', 'POST'])
 def stocks():
     
     form = StockForm()
