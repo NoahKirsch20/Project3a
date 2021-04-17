@@ -34,8 +34,7 @@ class StockForm(FlaskForm):
     
     symbol = SelectField("Choose Stock Symbol",[DataRequired()],
         choices=[
-            ("IBM", "IBM"),
-            ("GOOGL", "GOOGL"),
+            ("https://pkgstore.datahub.io/core/nyse-other-listings/nyse-listed_json/data/e8ad01974d4110e790b227dc1541b193/nyse-listed_json.json")
         ],
     )
 
